@@ -1,0 +1,4 @@
+Padrão de Projeto: Abstract Factory – Fábrica de Móveis
+Este repositório apresenta a implementação do padrão de projeto Abstract Factory em um cenário de fabricação de móveis. Foram criadas duas fábricas concretas — Fábrica Moderna e Fábrica Clássica — responsáveis por produzir famílias de objetos relacionados (cadeiras e mesas) que compartilham o mesmo estilo de design.
+A interface FabricaMovel define os métodos de criação dos produtos abstratos (Cadeira e Mesa), enquanto as fábricas concretas instanciam as versões específicas de cada estilo. Esse padrão garante que os objetos criados sejam compatíveis entre si, promovendo a extensibilidade e o baixo acoplamento do sistema.
+O projeto demonstra o uso prático do padrão Abstract Factory em um contexto de manufatura de produtos com diferentes características visuais e funcionais, reforçando a importância da criação de famílias de objetos relacionados de forma coesa e independente de suas classes concretas.
